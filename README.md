@@ -11,12 +11,11 @@
 
 5. Update ignition/modules/ContractModule.ts
 
-6. ```npx hardhat node```
+6. ```npx hardhat node``` in seperate terminal
 
 7. update Makefile
 
-*New Terminal
-8. ```make deploy-local``` 
+8. ```make deploy-local```
 
 9. ```cd ..```
 
@@ -29,5 +28,8 @@
 13. update Component.tsx
 
 14. ```npm run dev```
+
+
+
 
 
