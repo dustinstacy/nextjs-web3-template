@@ -1,35 +1,45 @@
 # Next JS + Ethers + Hardhat template
 ### Configured for local testing
 
-1. ```git clone https://github.com/dustinstacy/nextjs-web3-template.git```
+Make sure to check package and compiler versions
 
-2. ```cd nextjs-web3-template/contracts```
+1. ```bash
+   git clone https://github.com/dustinstacy/nextjs-web3-template.git
 
-3. ```npm install```
+2. ```bash
+   cd nextjs-web3-template/contracts
+
+3. ```bash
+   npm install
 
 4. Update contracts/Contract.sol
 
 5. Update ignition/modules/ContractModule.ts
 
-6. ```npx hardhat node``` in seperate terminal
+6. Open new terminal 
 
-7. update Makefile
+7. ```bash
+   npx hardhat node
+   ```
+8. Return to original terminal
+   
+9. update Makefile
 
-8. ```make deploy-local```
+10. ```bash
+    make deploy-local
 
-9. ```cd ..```
+11. ```bash
+    cd ..
 
-10. ``` cd client```
+12. ```bash
+    cd client
 
-11. ```npm install```
+13. ```bash
+    npm install
 
-12. update app/constants.ts
+14. update app/constants.ts
 
-13. update Component.tsx
+15. update Component.tsx
 
-14. ```npm run dev```
-
-
-
-
-
+16. ```bash
+    npm run dev
